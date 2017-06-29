@@ -8,6 +8,7 @@
             }
         </script>  
         <?php
+        //Esta Pagina no tiene separacion de capas pero es funcional
         session_start();
         if (isset($_POST['txtRut'])) {
             require 'connect.php';
